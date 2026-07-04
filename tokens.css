@@ -76,7 +76,8 @@
   --accent: 217 33% 17%;
   --accent-foreground: 210 40% 98%;
 
-  --destructive: 0 63% 60%;
+  /* 44% L (was 60%) so white foreground clears WCAG AA — 3.80:1 -> ~7.1:1 */
+  --destructive: 0 63% 44%;
   --destructive-foreground: 0 0% 100%;
 
   --success: 142 71% 45%;
