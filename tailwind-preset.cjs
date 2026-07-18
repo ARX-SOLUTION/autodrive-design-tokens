@@ -64,6 +64,7 @@ module.exports = {
           foreground: 'hsl(var(--info-foreground) / <alpha-value>)',
         },
         border: 'hsl(var(--border) / <alpha-value>)',
+        hair: 'hsl(var(--hair) / <alpha-value>)',
         input: 'hsl(var(--input) / <alpha-value>)',
         ring: 'hsl(var(--ring) / <alpha-value>)',
       },
@@ -75,7 +76,7 @@ module.exports = {
       fontFamily: {
         sans: ['Manrope', 'ui-sans-serif', 'system-ui', 'sans-serif'],
         mono: [
-          'IBM Plex Mono',
+          'JetBrains Mono',
           'ui-monospace',
           'SFMono-Regular',
           'Menlo',
