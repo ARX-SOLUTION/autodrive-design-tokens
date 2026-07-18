@@ -1,5 +1,5 @@
 /**
- * Autodrive Tailwind preset — Clinical palette.
+ * Autodrive Tailwind preset — Night-console palette.
  *
  * Consume from a repo:
  *
@@ -73,7 +73,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
-          'Inter',
+          'IBM Plex Sans',
           'ui-sans-serif',
           'system-ui',
           '-apple-system',
@@ -81,6 +81,13 @@ module.exports = {
           'Segoe UI',
           'Roboto',
           'sans-serif',
+        ],
+        mono: [
+          'IBM Plex Mono',
+          'ui-monospace',
+          'SFMono-Regular',
+          'Menlo',
+          'monospace',
         ],
       },
       fontVariantNumeric: {
