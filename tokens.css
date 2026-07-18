@@ -1,5 +1,5 @@
 /**
- * Autodrive design tokens — Night-console palette (graphite + amber)
+ * Autodrive design tokens — Executive graphite palette (graphite + amber)
  *
  * Source of truth for color / spacing / radius / typography.
  * Both light and dark modes exposed as HSL components so Tailwind can wrap
@@ -14,7 +14,7 @@
   --foreground: 220 10% 12%;
 
   /* between background and card — rails, toolbars */
-  --surface: 40 15% 97%;
+  --surface: 40 20% 94%;
 
   --card: 40 15% 99%;
   --card-foreground: 220 10% 12%;
@@ -67,19 +67,19 @@
   --card: 0 0% 11%;
   --card-foreground: 40 10% 92%;
 
-  --popover: 0 0% 10%;
+  --popover: 0 0% 11%;
   --popover-foreground: 40 10% 92%;
 
-  --muted: 0 0% 14%;
-  --muted-foreground: 0 0% 63%;
+  --muted: 0 0% 13%;
+  --muted-foreground: 0 0% 62%;
 
   --primary: 35 95% 55%;
   --primary-foreground: 220 10% 8%;
 
-  --secondary: 0 0% 14%;
+  --secondary: 0 0% 13%;
   --secondary-foreground: 40 10% 92%;
 
-  --accent: 0 0% 14%;
+  --accent: 0 0% 13%;
   --accent-foreground: 40 10% 92%;
 
   /* 44% L (was 60%) so white foreground clears WCAG AA — 3.80:1 -> ~7.1:1 */
@@ -95,7 +95,7 @@
   --info: 199 75% 55%;
   --info-foreground: 220 10% 8%;
 
-  --border: 0 0% 16%;
-  --input: 0 0% 16%;
+  --border: 0 0% 16.5%;
+  --input: 0 0% 16.5%;
   --ring: 35 95% 55%;
 }
