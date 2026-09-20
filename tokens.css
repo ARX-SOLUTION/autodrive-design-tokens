@@ -55,6 +55,12 @@
   --input: 40 10% 85%;
   --ring: 37 91.3% 55.1%;
 
+  /* ── Typography ───────────────────────────────────────────── */
+  --font-sans: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-heading: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-body: 'Manrope', ui-sans-serif, system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
   /* ── Radius ───────────────────────────────────────────────── */
   --radius: 0.875rem;
 }
