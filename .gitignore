@@ -1,0 +1,17 @@
+# Local agent tooling; README and design-token sources remain tracked
+AGENTS.md
+CLAUDE.md
+/.agents/
+/.claude/
+/.codex/
+/.pi/
+/.omp/
+/skills/
+/skills-lock.json
+/docs/agents/
+/.reviews/
+/.review-scratch/
+/.plans/
+/graphify-out/
+node_modules/
+.DS_Store
